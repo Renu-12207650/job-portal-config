@@ -1,0 +1,17 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/resumedb
+    username: root
+    password: Welcome@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
