@@ -11,5 +11,5 @@ spring:
       ddl-auto: update
     show-sql: true
 jwt:
-  secret: jobportal-secret-key-2024
+  secret: jobportal-secret-key-2024-secure-256bit-key
   expiration: 86400000
